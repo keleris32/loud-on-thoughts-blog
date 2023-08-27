@@ -11,30 +11,26 @@ const SinglePost = () => {
             <div className="container mx-auto px-5 md:px-0 w-full md:w-10/12 lg:w-5/12 font-work">
                <div className="py-5">
                   <div className="w-fit text-white px-2.5 py-1 bg-primary text-xs md:text-sm rounded-md mb-2 md:mb-4 font-medium">
-                     Technology
+                     Sports
                   </div>
                   <h3 className="text-base-content font-semibold text-xl md:text-2xl lg:text-4xl leading-5 md:leading-10 ">
-                     The Impact of Technology on the Workplace: How Technology
-                     is Changing
+                     The Impact of the Inverted Fullbacks Era
                   </h3>
                   <div className="mt-3 md:mt-6 flex items-center gap-5 text-base-content/60">
                      <div className=" flex items-center gap-3">
                         <div className="avatar">
                            <div className="w-9 rounded-full">
-                              <img
-                                 src="https://placehold.it/100x100"
-                                 alt="avatar"
-                              />
+                              <img src="/einstein.jpeg" alt="avatar" />
                            </div>
                         </div>
                         <a
                            href="/"
                            className=" text-xs md:text-sm font-medium hover:text-primary transition hover:duration-300"
                         >
-                           Jason Francisco
+                           Fantasma
                         </a>
                      </div>
-                     <p className="text-xs md:text-sm">August 20, 2022</p>
+                     <p className="text-xs md:text-sm">July 21, 2023</p>
                   </div>
                </div>
                <div className="mt-8">
@@ -43,7 +39,7 @@ const SinglePost = () => {
                      height="462"
                      alt={`blog_image`}
                      className={`rounded-xl`}
-                     src="https://placehold.it/800x462"
+                     src="/chelsea-full-backs-banner.jpeg"
                   />
                </div>
 
@@ -115,16 +111,16 @@ const SinglePost = () => {
                         height="462"
                         alt={`blog_image`}
                         className={`rounded-xl`}
-                        src="https://placehold.it/800x462"
+                        src="/thumb-reece-james-chelsea-fc-english-footballer-portrait-blue-stone-background.jpeg"
                      />
                   </div>
                   <div className="flex items-center justify-center my-8 font-work">
                      <div className="py-4 bg-base-content/10 text-base-content/60 text-center rounded-xl w-11/12">
                         <p className="text-sm">Advertisement</p>
                         <h6 className="text-xl font-semibold leading-[24px]">
-                           You can place ads
+                           Loud on thought Ads
                         </h6>
-                        <p className="text-lg leading-[26px]">750x100</p>
+                        <p className="text-lg leading-[26px]">Ads revenue</p>
                      </div>
                   </div>
                   <div className="mb-20">

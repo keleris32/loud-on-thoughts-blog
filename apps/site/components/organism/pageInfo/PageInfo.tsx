@@ -12,9 +12,7 @@ import React from 'react'
 const PageInfo = () => {
    return (
       <div className="py-4 bg-base-100 text-center font-work">
-         <h1 className="text-base-content text-3xl font-semibold">
-            Page Title
-         </h1>
+         <h1 className="text-base-content text-3xl font-semibold">Blog</h1>
          <div className="text-base breadcrumbs text-base-content/80 font-work mt-2 flex items-center justify-center">
             <ul>
                <li>
@@ -27,7 +25,7 @@ const PageInfo = () => {
                </li>
                <li>
                   <span className="text-base-content/60 font-normal text-base">
-                     Link One
+                     Blogs
                   </span>
                </li>
             </ul>

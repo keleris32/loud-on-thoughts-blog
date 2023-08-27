@@ -16,7 +16,7 @@ const AuthorInfo = () => {
             <div className="avatar">
                <div className="w-16 rounded-full">
                   <img
-                     src="https://placehold.it/100x100"
+                     src="/einstein.jpeg/"
                      width={64}
                      height={64}
                      alt="avatar_image"
@@ -25,18 +25,15 @@ const AuthorInfo = () => {
             </div>
             <div>
                <h5 className="text-base-content text-base sm:text-xl font-medium">
-                  Jonathan Doe
+                  Fantasma
                </h5>
                <span className="text-base-content/60 text-xs sm:text-sm">
-                  Collaborator & Editor
+                  Free Thinker
                </span>
             </div>
          </div>
          <p className="text-sm sm:text-lg text-base-content/70 text-center py-6 max-w-2xl w-full mx-auto">
-            Meet Jonathan Doe, a passionate writer and blogger with a love for
-            technology and travel. Jonathan holds a degree in Computer Science
-            and has spent years working in the tech industry, gaining a deep
-            understanding of the impact technology has on our lives.
+            Get a glimpse into the mind and insight of the Fantasma
          </p>
          <div className="flex items-center justify-center gap-2">
             {socialShare?.map((item, index) => (

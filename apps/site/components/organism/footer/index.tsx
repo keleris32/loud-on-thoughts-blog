@@ -25,9 +25,7 @@ const Footer = () => {
                      About
                   </h5>
                   <p className="mt-3 text-base text-base-content/70 mb-6">
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam
+                     Get a glimpse into the mind and insight of the Fantasma
                   </p>
                   <div>
                      <a
@@ -36,7 +34,7 @@ const Footer = () => {
                      >
                         Email :{' '}
                         <span className="text-base-content/70 font-normal hover:text-primary hover:duration-300 transition">
-                           info@jstemplate.net
+                           info@loudonthoughts.com
                         </span>
                      </a>
                   </div>
@@ -47,7 +45,7 @@ const Footer = () => {
                      >
                         Phone :{' '}
                         <span className="text-base-content/70 font-normal hover:text-primary hover:duration-300 transition">
-                           880 123 456 789
+                           80 3346 2229
                         </span>
                      </a>
                   </div>
@@ -93,16 +91,16 @@ const Footer = () => {
                </div>
             </div>
             <div className="flex flex-col gap-4 md:gap-0 md:flex-row items-center justify-between py-8 bg-base-200 border-t border-base-content/10">
-               <div className="flex items-center gap-2.5">
+               <div className="flex items-center justify-between gap-2.5">
                   <Link href="/">
                      <Favicon className={`text-base-content`} />
                   </Link>
                   <div>
-                     <h4 className="text-xl text-base-content font-sans">
-                        Meta<strong>Blog</strong>
-                     </h4>
+                     {/* <h4 className="text-xl text-base-content font-sans">
+                        <strong>LoudOnThoughts</strong>
+                     </h4> */}
                      <p className="mt-0.5 text-base-content/70 text-base">
-                        © JS Template 2023. All Rights Reserved.
+                        © Loud on Thoughts. All Rights Reserved.
                      </p>
                   </div>
                </div>
